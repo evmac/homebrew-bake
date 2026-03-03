@@ -1,27 +1,27 @@
 # homebrew-bake
 
-Homebrew tap for [bake](https://github.com/em/go-bake).
+Homebrew tap for [bake](https://github.com/evmac/go-bake).
 
 ## Install
 
 **From GitHub** (after pushing this repo):
 
 ```bash
-brew tap em/bake
+brew tap evmac/bake
 brew install bake
 ```
 
 **From local tap** (before pushing):
 
 ```bash
-brew tap em/bake ~/homebrew-bake
+brew tap evmac/bake ~/homebrew-bake
 brew install bake
 ```
 
 From HEAD (latest main):
 
 ```bash
-brew install --HEAD em/bake/bake
+brew install --HEAD evmac/bake/bake
 ```
 
 ## Linux

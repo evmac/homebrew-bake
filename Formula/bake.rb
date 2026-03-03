@@ -3,11 +3,11 @@
 
 class Bake < Formula
   desc "Bake your tools into your project."
-  homepage "https://github.com/em/go-bake"
-  url "https://github.com/em/go-bake/archive/refs/tags/v0.0.0.tar.gz"
+  homepage "https://github.com/evmac/go-bake"
+  url "https://github.com/evmac/go-bake/archive/refs/tags/v0.0.0.tar.gz"
   sha256 "" # run: curl -sL <url> | shasum -a 256
   license "MIT"
-  head "https://github.com/em/go-bake.git", branch: "main"
+  head "https://github.com/evmac/go-bake.git", branch: "main"
 
   depends_on "go" => :build
 
