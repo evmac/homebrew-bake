@@ -12,7 +12,8 @@ class Bake < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/bake"
+    ldflags = "-s -w -X main.Version=v#{version}"
+    system "go", "build", *std_go_args(ldflags: ldflags), "./cmd/bake"
   end
 
   test do
