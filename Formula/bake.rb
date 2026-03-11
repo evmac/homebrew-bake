@@ -4,8 +4,8 @@
 class Bake < Formula
   desc "Minimal Make replacement: one binary, one Bakefile, explicit DAG, typed args"
   homepage "https://github.com/evmac/go-bake"
-  url "https://github.com/evmac/go-bake/archive/refs/tags/v1.5.0.tar.gz"
-  sha256 "ffa4baf9873f37066507f29687a01dd7fc0828f0c27353e9efd3f60794c8a81c"
+  url "https://github.com/evmac/go-bake/archive/refs/tags/v1.6.0.tar.gz"
+  sha256 "98a5745a3ffdba41f751ed9a71f48f650e668ce406d997a7f965a2b4c7310b6d"
   license "MIT"
   head "https://github.com/evmac/go-bake.git", branch: "trunk"
 
