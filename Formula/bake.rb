@@ -1,11 +1,14 @@
 # typed: false
 # frozen_string_literal: true
+#
+# Source of truth for evmac/homebrew-bake Formula/bake.rb.
+# The release workflow copies this file and substitutes TAG and SHA256.
 
 class Bake < Formula
   desc "Minimal Make replacement: one binary, one Bakefile, explicit DAG, typed args"
   homepage "https://github.com/evmac/go-bake"
-  url "https://github.com/evmac/go-bake/archive/refs/tags/v1.7.1.tar.gz"
-  sha256 "012f932fa790c5831b0c3ffca21a0c348e0ad8229e81f707e47e512f864172c2"
+  url "https://github.com/evmac/go-bake/archive/refs/tags/v1.7.2.tar.gz"
+  sha256 "ff1439740bb56ba13452a4a14cf86891732b9a883002b2a9f147fabdf0153f25"
   license "MIT"
   head "https://github.com/evmac/go-bake.git", branch: "trunk"
 
